@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#background {
+  background-image: url("./../IMG/maxresdefault.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-blend-mode: lighten;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+.heading {
+  font-family: Monoton;
+  font-size: 70px;
+  text-align: center;
+  font-weight: bolder;
+}
+#container {
+  width: available;
+  height: available;
+}
+#leftPart {
+  width: 50%;
+
+  margin: 10px 25% 10px 25%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.content {
+  color: #e5e4e2;
+  font-weight: bolder;
+  font-size: xx-large;
+  font-family: satisfy;
+}
+#rightPart {
+  width: 50%;
+  margin: 10px 25% 10px 25%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.heading1 {
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: larger;
+  background-color: rgb(123, 154, 182);
+  text-align: center;
+}
+.row2 {
+  background-color: antiquewhite;
+}
+.heading2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  color: aliceblue;
+}
+#bottomPage {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+.Bottom li {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-left: 10px auto;
+  border-radius: 50%;
+}
+.Bottom a {
+  border-radius: 100%;
+}
+#rightPart.content-2.heading2 {
+  text-align: center;
+}
